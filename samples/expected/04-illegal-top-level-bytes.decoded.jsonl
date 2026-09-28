@@ -1,0 +1,9 @@
+{"char":"a","span":[0,1],"complete":true}
+{"char":"�","span":[1,2],"complete":false}
+{"char":"b","span":[2,3],"complete":true}
+{"char":"�","span":[3,4],"complete":false}
+{"char":"�","span":[4,5],"complete":false}
+{"char":"c","span":[5,6],"complete":true}
+{"char":"�","span":[6,7],"complete":false}
+{"char":"�","span":[7,8],"complete":false}
+{"char":"d","span":[8,9],"complete":true}

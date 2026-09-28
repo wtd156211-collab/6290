@@ -1,0 +1,7 @@
+{"char":"收","span":[0,3],"complete":true}
+{"char":"到","span":[3,6],"complete":true}
+{"char":"：","span":[6,9],"complete":true}
+{"char":"中","span":[9,12],"complete":true}
+{"char":"😀","span":[12,16],"complete":true}
+{"char":"�","span":[16,17],"complete":false}
+{"char":"�","span":[17,20],"complete":true}

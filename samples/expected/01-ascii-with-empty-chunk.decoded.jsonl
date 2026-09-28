@@ -1,0 +1,8 @@
+{"char":"L","span":[0,1],"complete":true}
+{"char":"O","span":[1,2],"complete":true}
+{"char":"G","span":[2,3],"complete":true}
+{"char":"\u0000","span":[3,4],"complete":true}
+{"char":"o","span":[4,5],"complete":true}
+{"char":"k","span":[5,6],"complete":true}
+{"char":"\r","span":[6,7],"complete":true}
+{"char":"\n","span":[7,8],"complete":true}

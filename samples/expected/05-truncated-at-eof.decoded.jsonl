@@ -1,0 +1,5 @@
+{"char":"o","span":[0,1],"complete":true}
+{"char":"k","span":[1,2],"complete":true}
+{"char":"�","span":[2,4],"complete":false}
+{"char":"!","span":[4,5],"complete":true}
+{"char":"�","span":[5,7],"complete":false}
