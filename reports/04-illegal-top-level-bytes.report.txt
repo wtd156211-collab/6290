@@ -1,0 +1,20 @@
+UTF-8 增量解码报告
+块目录: samples/chunks/04-illegal-top-level-bytes/
+块数: 3
+
+逐块统计
+- chunk-000.bin  字节=3  字符=3  跨块续上=0  非法=1
+    非法 [1, 2) invalid_lead
+- chunk-001.bin  字节=2  字符=2  跨块续上=0  非法=2
+    非法 [3, 4) invalid_lead
+    非法 [4, 5) invalid_lead
+- chunk-002.bin  字节=4  字符=4  跨块续上=0  非法=2
+    非法 [6, 7) invalid_lead
+    非法 [7, 8) invalid_lead
+
+整体统计
+- 总字节数: 9
+- 总字符数: 9
+- 跨块续上总次数: 0
+- 非法序列数: 5
+- 流结束时存在未完成序列: 否

@@ -1,0 +1,31 @@
+UTF-8 增量解码报告
+块目录: samples/chunks/06-illegal-multibyte-forms/
+块数: 6
+
+逐块统计
+- chunk-000.bin  字节=3  字符=3  跨块续上=0  非法=3
+    非法 [0, 1) invalid_continuation
+    非法 [1, 2) invalid_lead
+    非法 [2, 3) invalid_lead
+- chunk-001.bin  字节=3  字符=3  跨块续上=0  非法=3
+    非法 [3, 4) invalid_continuation
+    非法 [4, 5) invalid_lead
+    非法 [5, 6) invalid_lead
+- chunk-002.bin  字节=3  字符=3  跨块续上=0  非法=3
+    非法 [6, 7) invalid_continuation
+    非法 [7, 8) invalid_lead
+    非法 [8, 9) invalid_lead
+- chunk-003.bin  字节=3  字符=3  跨块续上=0  非法=3
+    非法 [9, 10) invalid_lead
+    非法 [10, 11) invalid_lead
+    非法 [11, 12) invalid_lead
+- chunk-004.bin  字节=2  字符=0  跨块续上=0  非法=0
+- chunk-005.bin  字节=1  字符=2  跨块续上=0  非法=1
+    非法 [12, 14) invalid_continuation
+
+整体统计
+- 总字节数: 15
+- 总字符数: 14
+- 跨块续上总次数: 0
+- 非法序列数: 13
+- 流结束时存在未完成序列: 否

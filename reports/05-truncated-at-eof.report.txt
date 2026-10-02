@@ -1,0 +1,17 @@
+UTF-8 增量解码报告
+块目录: samples/chunks/05-truncated-at-eof/
+块数: 3
+
+逐块统计
+- chunk-000.bin  字节=3  字符=2  跨块续上=0  非法=0
+- chunk-001.bin  字节=2  字符=2  跨块续上=1  非法=1
+    非法 [2, 4) invalid_continuation
+- chunk-002.bin  字节=2  字符=1  跨块续上=0  非法=1
+    非法 [5, 7) truncated_at_eof
+
+整体统计
+- 总字节数: 7
+- 总字符数: 5
+- 跨块续上总次数: 1
+- 非法序列数: 2
+- 流结束时存在未完成序列: 是
